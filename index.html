@@ -12,6 +12,8 @@
 
     <title>Emerson Luiz | ALT Energia Solar</title>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
     <style>
         :root {
             --laranja: #E35213;
@@ -83,13 +85,24 @@
             font-weight: bold;
             transition: 0.3s;
             font-size: 16px;
+            gap: 10px; /* Espaço entre ícone e texto */
         }
 
+        /* Cores e Estilos Específicos */
         .whatsapp { background-color: #25D366; }
         .email { background-color: var(--azul); }
-        .insta { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        /* Gradiente do Instagram mais moderno */
+        .insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
 
-        .btn:hover { transform: scale(1.02); filter: brightness(1.1); }
+        .btn i {
+            font-size: 20px;
+        }
+
+        .btn:hover { 
+            transform: scale(1.02); 
+            filter: brightness(1.1); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
 
         .footer {
             padding: 15px;
@@ -113,10 +126,21 @@
         <h2>Emerson Luiz</h2>
         <span class="cargo">Financeiro</span>
 
-        <a href="https://wa.me/5591992864243" class="btn whatsapp" target="_blank">WhatsApp (91) 99286-4243</a>
-        <a href="https://wa.me/559133491126" class="btn whatsapp" target="_blank">WhatsApp (91) 3349-1126</a>
-        <a href="mailto:emerson@altenergiasolar.com.br" class="btn email">Enviar E-mail</a>
-        <a href="https://www.instagram.com/altenergiasolar" class="btn insta" target="_blank">@altenergiasolar</a>
+        <a href="https://wa.me/5591992864243" class="btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp (91) 99286-4243
+        </a>
+
+        <a href="https://wa.me/559133491126" class="btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp (91) 3349-1126
+        </a>
+
+        <a href="mailto:emerson@altenergiasolar.com.br" class="btn email">
+            <i class="far fa-envelope"></i> Enviar E-mail
+        </a>
+
+        <a href="https://www.instagram.com/altenergiasolar" class="btn insta" target="_blank">
+            <i class="fab fa-instagram"></i> @altenergiasolar
+        </a>
     </div>
 
     <div class="footer">
