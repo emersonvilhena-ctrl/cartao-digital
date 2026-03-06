@@ -19,12 +19,12 @@
             --azul: #1A305E;
             --branco: #ffffff;
             --whatsapp: #25D366;
-            --cinza-claro: #f0f2f5;
+            --google-maps: #4285F4;
         }
 
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: var(--cinza-claro);
+            background-color: #f0f2f5;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,9 +36,9 @@
         .card {
             background: var(--branco);
             width: 100%;
-            max-width: 360px;
+            max-width: 350px;
             border-radius: 30px;
-            box-shadow: 0 15px 35px rgba(26, 48, 94, 0.15);
+            box-shadow: 0 15px 35px rgba(26, 48, 94, 0.2);
             overflow: hidden;
             text-align: center;
             border-top: 10px solid var(--laranja);
@@ -49,14 +49,14 @@
         }
 
         .logo {
-            max-width: 180px;
+            width: 180px;
             height: auto;
             display: block;
             margin: 0 auto;
         }
 
         .info {
-            padding: 0 25px 25px;
+            padding: 0 25px 30px;
         }
 
         h2 {
@@ -82,44 +82,35 @@
             justify-content: center;
             text-decoration: none;
             color: white;
-            padding: 12px;
+            padding: 14px;
             margin: 10px 0;
-            border-radius: 12px;
+            border-radius: 15px;
             font-weight: bold;
             transition: 0.3s;
             font-size: 15px;
             gap: 10px;
         }
 
-        /* Cores dos Botões */
-        .whatsapp { background-color: var(--whatsapp); }
-        .email { background-color: var(--azul); }
-        .insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
-        .maps { background-color: #4285F4; } /* Azul Google */
-        
-        /* Botão Salvar (Destaque diferente) */
+        /* Estilos dos Botões */
         .save-contact {
             background-color: transparent;
             color: var(--azul);
             border: 2px solid var(--azul);
-            margin-top: 15px;
+            margin-bottom: 20px;
         }
+        .whatsapp { background-color: var(--whatsapp); }
+        .email { background-color: var(--azul); }
+        .insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .maps { background-color: var(--google-maps); }
 
-        .btn:hover { 
-            transform: scale(1.02); 
-            filter: brightness(1.1); 
-        }
-
-        .save-contact:hover {
-            background-color: var(--azul);
-            color: white;
-        }
+        .btn:hover { transform: scale(1.02); filter: brightness(1.1); }
+        .save-contact:hover { background-color: var(--azul); color: white; }
 
         .footer {
             padding: 15px;
-            font-size: 13px;
+            font-size: 14px;
             color: var(--azul);
-            background: #f8f9fa;
+            background: #f9f9f9;
             font-weight: bold;
             border-top: 1px solid #eee;
         }
@@ -129,9 +120,7 @@
 
 <div class="card">
     <div class="header">
-        <a href="https://alternergiasolar.com.br" target="_blank">
-            <img src="https://alternergiasolar.com.br/wp-content/uploads/2023/07/logo-alt-energia-solar.png" alt="ALT Energia Solar" class="logo">
-        </a>
+        <img src="https://alternergiasolar.com.br/wp-content/uploads/2023/07/logo-alt-energia-solar.png" alt="ALT Energia Solar" class="logo">
     </div>
     
     <div class="info">
@@ -158,8 +147,8 @@
             <i class="fab fa-instagram"></i> @altenergiasolar
         </a>
 
-        <a href="https://maps.app.goo.gl/9Zp7W4kY8jM9yN9D7" class="btn maps" target="_blank">
-            <i class="fas fa-location-dot"></i> Como Chegar (Belém)
+        <a href="https://maps.app.goo.gl/3Xz3X3X3X3X3X3" class="btn maps" target="_blank">
+            <i class="fas fa-location-dot"></i> Como Chegar
         </a>
     </div>
 
