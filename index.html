@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="Emerson Luiz - ALT Energia Solar">
+    <meta property="og:description" content="Clique para falar comigo ou acessar nossas redes sociais.">
+    <meta property="og:image" content="https://seusite.com.br/logo-alt.jpg"> <meta property="og:type" content="website">
 
+    <title>Emerson Luiz | ALT Energia Solar</title>
+    
+    <style>
+        :root {
+            --laranja: #E35213;
+            --azul-escuro: #1A305E;
+            --branco: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: var(--branco);
+            width: 320px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            overflow: hidden;
+            text-align: center;
+            border-top: 8px solid var(--laranja);
+        }
+
+        .header {
+            padding: 30px 20px;
+            background: linear-gradient(180deg, #ffffff 0%, #f9f9f9 100%);
+        }
+
+        .logo {
+            width: 150px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .info {
+            padding: 0 20px 20px;
+        }
+
+        h2 {
+            color: var(--azul-escuro);
+            margin: 10px 0 5px;
+            font-size: 22px;
+        }
+
+        .cargo {
+            color: var(--laranja);
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 12px;
+            font-weight: bold;
+            transition: all 0.3s;
+            font-size: 16px;
+        }
+
+        .whatsapp { background-color: #25D366; }
+        .email { background-color: var(--azul-escuro); }
+        .insta-btn { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            filter: brightness(1.1);
+        }
+
+        .footer {
+            padding: 15px;
+            font-size: 12px;
+            color: #888;
+            background: #fdfdfd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <a href="https://www.instagram.com/altenergiasolar" target="_blank">
+            <img src="https://alternergiasolar.com.br/wp-content/uploads/2023/logo.png" alt="ALT Energia Solar" class="logo">
+        </a>
+    </div>
+    
+    <div class="info">
+        <h2>Emerson Luiz</h2>
+        <span class="cargo">Consultor de Energia Solar</span>
+
+        <a href="https://wa.me/5591992864243" class="btn whatsapp" target="_blank">
+            WhatsApp
+        </a>
+
+        <a href="mailto:emerson@altenergiasolar.com.br" class="btn email">
+            Enviar E-mail
+        </a>
+
+        <a href="https://www.instagram.com/altenergiasolar" class="btn insta-btn" target="_blank">
+            Siga no Instagram
+        </a>
+    </div>
+
+    <div class="footer">
+        www.alternergiasolar.com.br
+    </div>
+</div>
+
+</body>
+</html>
