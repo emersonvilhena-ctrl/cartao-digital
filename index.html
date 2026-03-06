@@ -5,109 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta property="og:title" content="Emerson Luiz - ALT Energia Solar">
-    <meta property="og:description" content="Financeiro | Clique para contatos e redes sociais.">
+    <meta property="og:description" content="Financeiro | Clique para contatos.">
+    <meta property="og:image" content="https://emersonvilhena-ctrl.github.io/cartao-digital/logo.png">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://emersonvilhena-ctrl.github.io/cartao-digital/">
 
     <title>Emerson Luiz | ALT</title>
     
     <style>
-        :root {
-            --laranja: #E35213;
-            --azul: #1A305E;
-            --fundo: #f4f7f6;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--fundo);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .card {
-            background: white;
-            width: 100%;
-            max-width: 350px;
-            border-radius: 30px;
-            box-shadow: 0 20px 50px rgba(26, 48, 94, 0.15);
-            text-align: center;
-            overflow: hidden;
-            border-bottom: 12px solid var(--laranja);
-        }
-
-        .header {
-            padding: 40px 20px 20px;
-            background: linear-gradient(180deg, #ffffff 0%, #fcfcfc 100%);
-        }
-
-        /* Moldura para a logo não quebrar */
-        .logo-box {
-            width: 180px;
-            margin: 0 auto;
-        }
-
-        .logo {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        h2 {
-            color: var(--azul);
-            margin: 15px 0 5px;
-            font-size: 26px;
-            letter-spacing: -0.5px;
-        }
-
-        .cargo {
-            color: var(--laranja);
-            font-weight: 800;
-            font-size: 14px;
-            text-transform: uppercase;
-            margin-bottom: 30px;
-            display: block;
-            letter-spacing: 2px;
-        }
-
-        .links {
-            padding: 0 25px 40px;
-        }
-
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: white;
-            padding: 16px;
-            margin-bottom: 12px;
-            border-radius: 16px;
-            font-weight: bold;
-            font-size: 15px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-
+        :root { --laranja: #E35213; --azul: #1A305E; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .card { background: white; width: 100%; max-width: 350px; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); text-align: center; overflow: hidden; border-bottom: 10px solid var(--laranja); }
+        .header { padding: 35px 20px 20px; }
+        /* Se a logo não carregar, este estilo garante que não fique um ícone feio */
+        .logo { width: 180px; min-height: 50px; display: block; margin: 0 auto; }
+        h2 { color: var(--azul); margin: 15px 0 5px; font-size: 26px; }
+        .cargo { color: var(--laranja); font-weight: bold; font-size: 14px; text-transform: uppercase; margin-bottom: 25px; display: block; }
+        .links { padding: 0 25px 35px; }
+        .btn { display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; padding: 16px; margin-bottom: 12px; border-radius: 15px; font-weight: bold; transition: 0.3s; }
         .whatsapp { background-color: #25D366; }
         .email { background-color: var(--azul); }
         .insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #bc1888); }
-
-        .btn:active {
-            transform: scale(0.96);
-            filter: brightness(0.9);
-        }
-
-        .footer {
-            padding: 15px;
-            font-size: 13px;
-            color: #999;
-            background: #fafafa;
-        }
     </style>
 </head>
 <body>
@@ -115,10 +32,7 @@
 <div class="card">
     <div class="header">
         <a href="https://www.instagram.com/altenergiasolar">
-            <div class="logo-box">
-                <img src="https://cdn-icons-png.flaticon.com/512/3106/3106856.png" style="width:50px; margin-bottom:10px;" alt="Solar Icon">
-                <div style="font-weight: bold; color: #1A305E; font-size: 22px;">ALT ENERGIA</div>
-            </div>
+            <img src="logo.png" alt="ALT Energia Solar" class="logo">
         </a>
         <h2>Emerson Luiz</h2>
         <span class="cargo">Financeiro</span>
@@ -128,11 +42,7 @@
         <a href="https://wa.me/5591992864243" class="btn whatsapp">WhatsApp (91) 99286-4243</a>
         <a href="https://wa.me/559133491126" class="btn whatsapp">WhatsApp (91) 3349-1126</a>
         <a href="mailto:emerson@altenergiasolar.com.br" class="btn email">E-mail Profissional</a>
-        <a href="https://www.instagram.com/altenergiasolar" class="btn insta">Siga no Instagram</a>
-    </div>
-
-    <div class="footer">
-        www.alternergiasolar.com.br
+        <a href="https://www.instagram.com/altenergiasolar" class="btn insta">Instagram @altenergiasolar</a>
     </div>
 </div>
 
